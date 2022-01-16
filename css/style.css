@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 88%;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container img {
+  padding: 15px 0;
+}
+
+header .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .container nav ul li {
+  margin-right: 50px;
+  padding: 15px 10px;
+}
+
+header .container nav ul li a {
+  color: #6E7275;
+  font-family: 'Inter', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #EFF8FF;
+}
+
+.banner .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner .container .text-banner {
+  font-size: 1.8em;
+  font-family: 'Inter', sans-serif;
+}
+
+.banner .container .text-banner button {
+  background-color: #0F9AFE;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 30px;
+  color: #fff;
+}
+
+.funciona {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 450px;
+}
+
+.funciona .container {
+  margin-top: 50px;
+}
+
+.funciona .container h2 {
+  font-size: 35px;
+  font-family: 'Sora', sans-serif;
+}
+
+.funciona .container .boxes-como {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.funciona .container .boxes-como .box {
+  width: 250px;
+}
+
+.funciona .container .boxes-como .box img {
+  margin-bottom: 20px;
+}
+
+.funciona .container .boxes-como .box h3 {
+  font-family: 'Sora', sans-serif;
+  margin-bottom: 15px;
+}
+
+.funciona .container .boxes-como .box p {
+  font-family: 'Sora', sans-serif;
+}
+
+.dow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #EFF8FF;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 475px;
+}
+
+.dow .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dow .container .download {
+  width: 600px;
+}
+
+.dow .container .download h2 {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.dow .container .download p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 26px;
+  width: 444px;
+  margin-bottom: 15px;
+}
+
+.planos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.planos .container {
+  margin-bottom: 100px;
+}
+
+.planos .container h2 {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 50px;
+  margin-top: 30px;
+}
+
+.planos .container p {
+  font-family: inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #6E7275;
+  margin-bottom: 60px;
+}
+
+.planos .container .boxes-planos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.planos .container .boxes-planos .box-plano-blu {
+  width: 370px;
+  height: 471px;
+  background-color: #293145;
+  margin-right: 25px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.planos .container .boxes-planos .box-plano-blu .preferido {
+  background-color: #0F9AFE;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 60px;
+  color: #fff;
+}
+
+.planos .container .boxes-planos .box-plano-blu h3 {
+  margin: 60px 0 20px 0;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.planos .container .boxes-planos .box-plano-blu h2 {
+  margin-bottom: 30px;
+}
+
+.planos .container .boxes-planos .box-plano-blu h2 sup {
+  font-size: 14px;
+}
+
+.planos .container .boxes-planos .box-plano-blu h2 span {
+  font-family: inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+}
+
+.planos .container .boxes-planos .box-plano-blu h2 b {
+  font-family: inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.planos .container .boxes-planos .box-plano-blu p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.planos .container .boxes-planos .box-plano-blu button {
+  background-color: #0F9AFE;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 60px;
+  color: #fff;
+}
+
+.planos .container .boxes-planos .box-plano {
+  width: 370px;
+  height: 471px;
+  background-color: #EFF8FF;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+
+.planos .container .boxes-planos .box-plano h3 {
+  margin: 60px 0 20px 0;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.planos .container .boxes-planos .box-plano h2 {
+  margin-bottom: 30px;
+}
+
+.planos .container .boxes-planos .box-plano h2 sup {
+  font-size: 14px;
+}
+
+.planos .container .boxes-planos .box-plano h2 span {
+  font-family: inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+}
+
+.planos .container .boxes-planos .box-plano h2 b {
+  font-family: inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.planos .container .boxes-planos .box-plano p {
+  font-size: 16px;
+}
+
+.planos .container .boxes-planos .box-plano button {
+  background-color: #0F9AFE;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 60px;
+  color: #fff;
+}
+
+.contato {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #EFF8FF;
+  text-align: center;
+}
+
+.contato .container h2 {
+  margin-top: 30px;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.contato .container p {
+  font-family: inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 60px;
+  color: #6E7275;
+}
+
+.contato .container form {
+  margin-bottom: 30px;
+}
+
+.contato .container form input {
+  text-align: left;
+  border: none;
+  background-color: #EFF8FF;
+  border-bottom: 1px solid black;
+  padding: 10px 30px 10px 0;
+}
+
+.contato .container form input::-webkit-input-placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+.contato .container form input:-ms-input-placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+.contato .container form input::-ms-input-placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+.contato .container form input::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+.contato .container form button {
+  background-color: #0F9AFE;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+footer p {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+/*# sourceMappingURL=style.css.map */
